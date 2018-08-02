@@ -1,0 +1,132 @@
+* {
+   padding: 0; margin: 0; 
+}
+html, body{
+    height: 100%;
+}
+
+
+#container{
+    width: 70%;
+    margin: 0 auto;
+    border: 10px outset #008B45;
+    display: flex;
+    overflow: hidden;
+}
+.column{
+    flex: 50%;
+}
+#left{
+    flex: 60%;
+}
+
+#right{
+    flex: 40%;
+    background-color: #ccffc6; 
+}
+
+.left-content{
+    padding: 20px 20px 10px 20px;
+}
+
+.right-content{
+    padding: 20px 15px 10px 15px;
+}
+
+h2{
+    font-style: italic;
+    padding: 0 15px;
+    color: #8B7D7B;
+}
+
+h3{
+    font-style: italic;
+    padding: 0 15px;
+    color:  #CDB7B5;
+}
+
+.about {
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+#header{
+}
+
+.image{
+    width: 100%; 
+}
+
+.image-wrapper{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    border-radius: 50%; 
+}
+
+.row{ 
+    display: flex;
+    margin: 10px 0;
+}
+
+.expirience_time{
+    width: 115px;
+    padding: 0 15px;    
+    text-align: center;
+}
+.expirience_company{
+    width: 100px;
+}
+.expirience_mustdo{
+    width: 380px;
+}
+.graduation_time{
+    min-width: 80px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.graduation_place{
+    padding: 0 15px;
+    font-weight: 700;
+}
+.graduation_speciality{
+    padding-top: 10px;
+    padding-left: 125px;
+}
+
+.personal-data{
+    padding: 0 15px;
+    align-items: center;
+}
+
+.pr-data-icon{
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.pr-data-content{
+    padding: 0 15px;
+}
+
+#professional-skills, #hobby{
+    padding: 0 15px;
+}
+
+.progress-bar{
+    height: 15px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #c6c6c6;
+}
+
+.progress-value{
+    background-color: #042804;
+    height: 15px;
+}
